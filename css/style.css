@@ -1,0 +1,84 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+
+}
+header .logo{
+    display: block;
+    height: 250px;
+}
+nav{
+    background-color:#4d75d1;
+}
+nav a{
+    color: black;
+    padding: 20px 15px;
+    display: block;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a.last{
+    background-color: rgb(65, 152, 211);
+    float: right;
+    display: block;
+}
+nav a:hover{
+    color: #da2c9f;
+}
+.last:hover{
+    color: #722ec0;
+}
+.container{
+    width: 80%;
+}
+#banner{
+    background-color: #efdff2;
+    padding: 30px 0;
+}
+#banner .container{
+    display: flex;
+}
+#banner img{
+    height: 400px;
+    width: 100%;
+}
+.info{
+    padding: 40px;
+}
+.info h1{
+    color: blueviolet;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info h1 span{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid violet;
+    font-size: 20px;
+    color: crimson;
+}
+.info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 20px 0;
+    color: brown;
+}
+.info a{
+    display: inline-block;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.info a:hover{
+    color: black;
+    background-color:pink;
+}
