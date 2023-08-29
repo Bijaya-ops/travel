@@ -2,7 +2,7 @@
     margin:0 auto;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 header{
 
@@ -13,6 +13,7 @@ header .logo{
 }
 nav{
     background-color:#4d75d1;
+    overflow: hidden;
 }
 nav a{
     color: black;
@@ -81,4 +82,35 @@ nav a:hover{
 .info a:hover{
     color: black;
     background-color:pink;
+}
+#feature{
+margin: 30px 0;
+}
+#feature .container{
+    display: flex;
+}
+#feature .box{
+    width: 24%;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.box .info1{
+    background-color: rgb(73, 8, 8);
+    color: aquamarine;
+    padding: 10px 0;
+}
+.info1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding: 0 10px;
+}
+.info1 a{
+    color: rgb(233, 245, 215);
+    text-decoration: none;
+}
+.info1 a:hover{
+    color: rgb(159, 210, 222);
 }
